@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First webpage</title>
+	<link rel="stylesheet"
+		href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="intro">
+			<img class="profile-picture" src="images/profile-picture.jpg" />
+			<h1>LAUREN CULIBAO</h1>
+			<h3>BSME and Aspiring Web Developer</h3>
+			<p class="quote">This is my first website!</p>
+		</div> <!-- intro -->
+		
+		<hr/>
+		
+		<div class="about-grid">
+			<div class="i-am">
+				<h3>I am</h3>
+				<ul class="about-list">
+					<li>A second-generation immigrant</li>
+					<li>A domestic partner</li>
+					<li>A work-in-progress</li>
+				</ul>
+			</div> <!-- i-am -->
+			<div class="i-like">
+				<h3>I like to</h3>
+				<ul class="about-list">
+					<li>Go hiking</li>
+					<li>Play videogames</li>
+					<li>Learn new things</li>
+				</ul>	
+			</div> <!-- i-like -->
+		</div> <!-- about-grid -->	
+		
+		<hr/>
+		
+		<div>
+			<h3 class="projects-heading">My Projects</h3>
+			<div class="projects-grid">
+				<div class="project-image-wrapper">
+					<h4>Project 1</h4>
+					<img class="project-image" src="images/project-1.jpg" />
+				</div> <!-- project-image-wrapper -->
+				<div class="project-image-wrapper">
+					<h4>Project 2</h4>
+					<img class="project-image" src="images/project-2.jpg" />
+				</div> <!-- project-image-wrapper -->
+				<div class="project-image-wrapper">
+					<h4>Project 3</h4>
+					<img class="project-image" src="images/project-3.jpg" />
+				</div> <!-- project-image-wrapper -->
+				<div class="project-image-wrapper">
+					<h4>Project 4</h4>
+					<img class="project-image" src="images/project-4.jpg" />
+				</div> <!-- project-image-wrapper -->
+			</div> <!-- projects-grid -->
+		</div> <!-- unlabeled -->
+		
+		<hr/>
+		
+		<div class="links-and-contact">
+			<div class="links">
+				<h3>Links</h3>
+				<ul class="links-list">
+					<li>
+						<a href="http://linkedin.com/in/culibaolauren">LinkedIn</a>
+					</li>
+				</ul>
+			</div> <!-- links -->
+			<div class="contact">
+				<form action="#">
+					<label for="email">
+						<h4>Email</h4>
+						<input type="email" id="email" placeholder="Enter your email" />
+					</label>
+					<label for="message">
+						<h4>Message</h4>
+						<textarea id="message">Your Message</textarea>
+					</label>
+					<div class="submit-button-wrapper">
+						<input type="submit" valid="Send Message" id="submit-button" />
+					</div> <!-- submit-button-wrapper -->
+				</form>
+			</div> <!-- contact -->
+		</div> <!-- links-and-contact -->
+	</div> <!-- container -->
+	<script src="script.js"></script>
+</body>
+</html>			
